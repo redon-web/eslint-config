@@ -4,7 +4,6 @@
 
 该配置等同于 TypeScript 配置 [redon-ts](https://github.com/redon-web/eslint-config/tree/main/packages/ts/README.md)
 
-
 ### 安装
 
 ```bash
@@ -30,7 +29,6 @@ module.exports = {
   "extends": "redon"
 }
 ```
-
 
 通常不需要添加 .eslintignore 配置文件，因为已经预设了一些配置，如果项目需要，可以自行添加
 

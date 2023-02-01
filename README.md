@@ -1,5 +1,7 @@
 # @redon-web eslint config presets with prettier
 
+## 总览
+
 - 集成了 prettier，自动修复并格式化
 - 多种预设的配置: JavaScript, TypeScript, Vue, React, ReactNative, Svelte and Solid
 - 同样也可以格式化 html、json、yaml、markdown
@@ -12,6 +14,7 @@
 pnpm i -D eslint
 pnpm i -D typescript
 ```
+
 - 然后根据项目中使用的技术，安装下面的其中一个
 
 ```bash
@@ -33,15 +36,15 @@ pnpm i -D eslint-config-redon-solid         # Solid
 
 ```js
 module.exports = {
-  extends: "redon" // redon-base | redon-ts | redon-vue | redon-react | redon-react-native | redon-svelte | redon-solid
-}
+  extends: "redon", // redon-base | redon-ts | redon-vue | redon-react | redon-react-native | redon-svelte | redon-solid
+};
 ```
 
 - .eslintrc.json、.eslintrc
 
 ```json
 {
-   "extends": "redon" // redon-base | redon-ts | redon-vue | redon-react | redon-react-native | redon-svelte | redon-solid
+  "extends": "redon" // redon-base | redon-ts | redon-vue | redon-react | redon-react-native | redon-svelte | redon-solid
 }
 ```
 

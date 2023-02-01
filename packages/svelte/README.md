@@ -2,7 +2,6 @@
 
 ## Svelte 预设配置
 
-
 ### 安装
 
 ```bash
@@ -28,7 +27,6 @@ module.exports = {
   "extends": "redon-svelte"
 }
 ```
-
 
 通常不需要添加 .eslintignore 配置文件，因为已经预设了一些配置，如果项目需要，可以自行添加
 

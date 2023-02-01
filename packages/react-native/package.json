@@ -2,7 +2,6 @@
   "name": "eslint-config-redon-react-native",
   "version": "0.1.0",
   "description": "@redon-web ReactNative eslint config presets with prettier",
-  "main": "index.js",
   "author": {
     "name": "Redon",
     "email": "chenzhaoyu1994@gmail.com",
@@ -16,6 +15,7 @@
   "bugs": {
     "url": "https://github.com/redon-web/eslint-config/issues"
   },
+  "main": "index.js",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },

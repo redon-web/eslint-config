@@ -1,7 +1,6 @@
 {
   "name": "eslint-config-redon-vue",
   "version": "0.1.0",
-  "main": "index.js",
   "author": {
     "name": "Redon",
     "email": "chenzhaoyu1994@gmail.com",
@@ -15,6 +14,7 @@
   "bugs": {
     "url": "https://github.com/redon-web/eslint-config/issues"
   },
+  "main": "index.js",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
