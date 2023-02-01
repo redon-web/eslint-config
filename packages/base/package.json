@@ -8,6 +8,13 @@
     "url": "https://github.com/chanzhaoyu"
   },
   "license": "MIT",
+  "homepage": "https://github.com/redon-web/eslint-config",
+  "repository": {
+    "url": "https://github.com/redon-web/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/redon-web/eslint-config/issues"
+  },
   "exports": {
     ".": "./index.js",
     "./base": "./base.js",
