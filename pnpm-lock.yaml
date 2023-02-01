@@ -4,7 +4,7 @@ importers:
 
   .:
     specifiers:
-      '@redon-web/cli': ^0.2.1
+      '@redon-web/cli': 0.3.1
       bumpp: 8.2.1
       eslint: 8.31.0
       eslint-config-redon: workspace:*
@@ -15,7 +15,7 @@ importers:
       typescript: 4.9.4
       zx: 7.1.1
     devDependencies:
-      '@redon-web/cli': 0.2.1
+      '@redon-web/cli': 0.3.1
       bumpp: 8.2.1
       eslint: 8.31.0
       eslint-config-redon: link:packages/redon
@@ -509,8 +509,8 @@ packages:
       config-chain: 1.1.13
     dev: true
 
-  /@redon-web/cli/0.2.1:
-    resolution: {integrity: sha512-i9Z0Mh2DHVjPg+5HZ1TpjW/he0/uKyz5J4HaSvdflUjfHIn9Igl4XWOlgVOR7sWQwZADIuKYX5bQLTIX+um4bg==}
+  /@redon-web/cli/0.3.1:
+    resolution: {integrity: sha512-gmax0h4t1rY6FOFt614yUstmBruUQIz1KPxNADMcMUIJ8UaXwE5ZgnhJ5NeOGAX8tZF3+lgTs/Eo66IH+ZTwBw==}
     hasBin: true
     dependencies:
       commander: 9.5.0
