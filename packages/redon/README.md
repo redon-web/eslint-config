@@ -1,4 +1,4 @@
-# eslint-config-redon-solid
+# eslint-config-redon
 
 ## eslint 预设配置
 
