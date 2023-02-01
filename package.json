@@ -22,9 +22,9 @@
   "scripts": {
     "lint": "eslint . --fix",
     "esno": "esno",
-    "commit": "rd git-commit",
-    "cleanup": "rd cleanup",
-    "update-pkg": "rd update-pkg",
+    "commit": "redon git-commit",
+    "cleanup": "redon cleanup",
+    "update-pkg": "redon update-pkg",
     "update-version": "bumpp package.json packages/*/package.json",
     "publish-pkg": "pnpm -r publish --access public",
     "release": "pnpm update-version && pnpm publish-pkg",
