@@ -1,0 +1,22 @@
+{
+  "name": "eslint-config-redon-svelte",
+  "version": "0.1.0",
+  "description": "@redon-web Svelte eslint config presets with prettier",
+  "main": "index.js",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  },
+  "dependencies": {
+    "eslint-config-redon-ts": "workspace:*",
+    "eslint-plugin-svelte3": "4.0.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "devDependencies": {
+    "eslint": "8.31.0"
+  }
+}

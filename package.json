@@ -1,0 +1,48 @@
+{
+  "name": "@redon-web/eslint-config",
+  "version": "0.1.0",
+  "private": true,
+  "description": "@redon-web eslint config presets with prettier",
+  "author": {
+    "name": "Redon",
+    "email": "chenzhaoyu1994@gmail.com",
+    "url": "https://github.com/chanzhaoyu"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "lint": "eslint . --fix",
+    "esno": "esno",
+    "commit": "rd git-commit",
+    "cleanup": "rd cleanup",
+    "update-pkg": "rd update-pkg",
+    "update-version": "bumpp package.json packages/*/package.json",
+    "publish-pkg": "pnpm -r publish --access public",
+    "release": "pnpm update-version && pnpm publish-pkg",
+    "sync-pkg": "esno ./scripts/sync.ts",
+    "prepare": "pnpm -r run stub"
+  },
+  "devDependencies": {
+    "@redon-web/cli": "^0.2.1",
+    "bumpp": "8.2.1",
+    "eslint": "8.31.0",
+    "eslint-config-redon": "workspace:*",
+    "esno": "0.16.3",
+    "lint-staged": "^13.1.0",
+    "simple-git-hooks": "^2.8.1",
+    "tsup": "6.5.0",
+    "typescript": "4.9.4",
+    "zx": "7.1.1"
+  },
+  "simple-git-hooks": {
+    "commit-msg": "pnpm redon git-commit-verify",
+    "pre-commit": "pnpm exec lint-staged --concurrent false"
+  },
+  "lint-staged": {
+    "*": [
+      "eslint . --fix"
+    ]
+  }
+}

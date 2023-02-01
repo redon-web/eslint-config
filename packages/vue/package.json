@@ -1,0 +1,21 @@
+{
+  "name": "eslint-config-redon-vue",
+  "version": "0.1.0",
+  "main": "index.js",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  },
+  "dependencies": {
+    "eslint-config-redon-ts": "workspace:*",
+    "eslint-plugin-vue": "9.8.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "devDependencies": {
+    "eslint": "8.31.0"
+  }
+}
